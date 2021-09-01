@@ -10,10 +10,10 @@ phases:
       - echo Build started on `date`
       - mvn clean package
 
-artifacts:
-  files:
-    - service/target/*.jar
-  discard-paths: yes
+#artifacts:
+#  files:
+#    - service/target/*.jar
+#  discard-paths: yes
 
 cache:
   paths:
