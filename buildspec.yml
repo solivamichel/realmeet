@@ -6,7 +6,7 @@ phases:
       java: corretto11
       docker: 19
   build:
-    comands:
+    commands:
       - echo Build started on `date`
       - mvn clean package
 
