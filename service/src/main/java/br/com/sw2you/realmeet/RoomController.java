@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.concurrent.CompletableFuture;
 
+
 @RestController
 public class RoomController implements RoomsApi {
 
